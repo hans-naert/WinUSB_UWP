@@ -9,8 +9,9 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Button Content="Connect to WinUSB device" Height="83" Margin="74,43,0,0" VerticalAlignment="Top" Width="261" Click="connectButtonClick"/>
-        <TextBlock x:Name="USBFound" HorizontalAlignment="Left" Margin="75,166,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button x:Name="connectButton" Content="Connect to WinUSB device" Height="47" Margin="74,43,0,0" VerticalAlignment="Top" Width="229" Click="connectButtonClick"/>
+        <TextBlock x:Name="USBFound" HorizontalAlignment="Left" Margin="75,132,0,0" Text="Not connected" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button x:Name="transferButton" Content="Button" Height="35" Margin="75,191,0,0" VerticalAlignment="Top" Width="229" Click="transferButtonClick"/>
 
     </Grid>
 </Page>
